@@ -1,11 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ポートフォリオサイト</title>
+    
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/main.js" defer></script>
 </head>
 <body>
-    
+
+    <header class="hero-header">
+        <div class="inner">
+            <div class="slideshow">
+                <img src="img/haru.png" alt="" width="1600" height="465">
+                <img src="img/umi.png" alt="" width="1600" height="465">
+                <img src="img/aki.png" alt="" width="1600" height="465">
+                <img src="img/yuki.png" alt="" width="1600" height="465">
+                <img src="img/kankeisya.png" alt="" width="1600" height="465">
+            </div>
+        </div>
+    </header>
+
+    <header class="page-header" role="banner">
+        <div class="inner">
+            <h1 class="site-logo">
+                <a href="#"><img src="img/sakuhin.png" alt="logo" height="45" width="250"></a>
+            </h1>
+            <nav class="primary-nav" role="navigation">
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Works</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div role="main">
+
+        <section class="works-section" id="works">
+            <div class="inner">
+                <h2>Works</h2>
+                <ul class="works-list clearfix">
+                    <li> 
+                        <a href="Maya.html">
+                            <span class="image-wrapper">
+                                <img class="image" src="img/Maya.png" alt="Maya" height="300" width="304">
+                            </span>
+                            <b class="title">Maya作品</b>
+                            <time class="date" datetime="2015-05-16">2020/07/23</time>
+                            <p class="description">Mayaの作品の説明</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Illustrator.html">
+                            <span class="image-wrapper">
+                                <img class="image" src="img/illustrator.png" alt="Illustrator" height="300" width="304">
+                            </span>
+                            <b class="title">Illustrator作品</b>
+                            <time class="date" datetime="2015-05-01">2020/07/23</time>
+                            <p class="description">Illustratorの作品の説明</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Photoshop.html">
+                            <span class="image-wrapper">
+                                <img class="image" src="img/photoshop.png" alt="Photoshop" height="300" width="304">
+                            </span>
+                            <b class="title">Photoshop作品</b>
+                            <time class="date" datetime="2015-04-01">2020/07/23</time>
+                            <p class="description">Photoshopの作品の説明</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <footer class="page-footer" role="contentinfo">
+        <div class="inner clearfix">
+            <small class="copyright">&copy; x19034xx 河野 真空</small>
+        </div>
+    </footer>
 </body>
 </html>
